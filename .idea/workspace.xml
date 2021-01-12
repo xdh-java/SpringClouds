@@ -1,117 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f229c160-4686-4d12-ad17-649d150c37a4" name="Default Changelist" comment="提交到本地仓库">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/java/xdh/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/java/xdh/controller/ConsumerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/java/xdh/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/target/classes/com/java/xdh/ConsumerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/target/classes/com/java/xdh/controller/ConsumerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/target/classes/com/java/xdh/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/EurekaClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/ProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/ProviderApplication3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/controller/StudentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/repository/impl/StudentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/java/com/java/xdh/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/test/java/com/java/xdh/repository/StudentRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/src/test/java/com/java/xdh/service/impl/StudentServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/META-INF/EurakaClient.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/ProviderApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/ProviderApplication3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/controller/StudentHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/repository/impl/StudentRepositoryImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/classes/com/java/xdh/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/test-classes/com/java/xdh/repository/StudentRepositoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurakaClient/target/test-classes/com/java/xdh/service/impl/StudentServiceImplTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/com/java/xdh/EurekaServerApplicaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EurekaServer/target/classes/com/java/xdh/EurekaServerApplicaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/java/com/java/xdh/FeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/java/com/java/xdh/controller/FeignHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/java/com/java/xdh/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/java/com/java/xdh/feign/FeignProviderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/java/com/java/xdh/feign/impl/FeignError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/com/java/xdh/FeignApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/com/java/xdh/controller/FeignHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/com/java/xdh/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/com/java/xdh/feign/FeignProviderClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feign/target/classes/com/java/xdh/feign/impl/FeignError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/Hystrix.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/src/main/java/com/java/xdh/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/src/main/java/com/java/xdh/controller/HystrixHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/src/main/java/com/java/xdh/eneity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/src/main/java/com/java/xdh/feign/FeignProviderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/target/classes/com/java/xdh/HystrixApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/target/classes/com/java/xdh/controller/HystrixHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/target/classes/com/java/xdh/eneity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hystrix/target/classes/com/java/xdh/feign/FeignProviderClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/NativeConfigClient.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/src/main/java/com/java/xdh/NativeConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/src/main/java/com/java/xdh/controller/NativeConfigHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/target/classes/com/java/xdh/NativeConfigClientApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigClient/target/classes/com/java/xdh/controller/NativeConfigHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/NativeConfigServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/src/main/java/com/java/xdh/NativeConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/src/main/resources/shared/configclient-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/target/classes/com/java/xdh/NativeConfigServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NativeConfigServer/target/classes/shared/configclient-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/src/main/java/com/java/xdh/RestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/src/main/java/com/java/xdh/controlller/RestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/src/main/java/com/java/xdh/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/target/classes/com/java/xdh/RestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/target/classes/com/java/xdh/controlller/RestHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestTemplate/target/classes/com/java/xdh/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/Ribbon.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/src/main/java/com/java/xdh/RibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/src/main/java/com/java/xdh/controller/RibbonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/src/main/java/com/java/xdh/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/target/classes/com/java/xdh/RibbonApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/target/classes/com/java/xdh/controller/RibbonHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ribbon/target/classes/com/java/xdh/entity/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zuul/src/main/java/com/java/xdh/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zuul/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zuul/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zuul/target/classes/com/java/xdh/ZuulApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f229c160-4686-4d12-ad17-649d150c37a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ConfigClient/ConfigClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/src/main/java/com/java/xdh/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/src/main/java/com/java/xdh/controller/PortHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigClient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/java/xdh/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,18 +57,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1mmsmIhcg5FtkaFXbMkbKYCJn3R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -191,7 +99,33 @@
       <recent name="D:\Projects\SpringCloud\SpringCloudDemo\SpringCloud" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.NativeConfigClientApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConfigClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.xdh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.xdh.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConfigServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.xdh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.xdh.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplicaction" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="EurekaServer" />
       <extension name="coverage">
@@ -201,19 +135,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.xdh.EurekaServerApplicaction" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Hystrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.xdh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.xdh.HystrixApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,26 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="EurakaClient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.xdh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.xdh.ProviderApplication3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplicaction" />
         <item itemvalue="Spring Boot.NativeConfigClientApplication" />
         <item itemvalue="Spring Boot.NativeConfigServerApplication" />
-        <item itemvalue="Spring Boot.EurekaServerApplicaction" />
-        <item itemvalue="Spring Boot.HystrixApplication" />
-        <item itemvalue="Spring Boot.ProviderApplication3" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +192,23 @@
       <workItem from="1610275182713" duration="13151000" />
       <workItem from="1610336761917" duration="17347000" />
       <workItem from="1610430233952" duration="6373000" />
-      <workItem from="1610437286568" duration="3244000" />
+      <workItem from="1610437286568" duration="6804000" />
     </task>
+    <task id="LOCAL-00001" summary="提交到本地仓库">
+      <created>1610441815854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610441815854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交到本地仓库" />
     <option name="LAST_COMMIT_MESSAGE" value="提交到本地仓库" />
   </component>
@@ -300,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1610436253601" />
-    <state x="552" y="178" key="#Project_Structure" timestamp="1610199280912">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1610444205751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610199280912" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610444205751" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610205412400">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -316,10 +233,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610195401786" />
-    <state x="436" y="109" key="CommitChangelistDialog2" timestamp="1610439605054">
+    <state x="436" y="109" key="CommitChangelistDialog2" timestamp="1610441809398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="436" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610439605054" />
+    <state x="436" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610441809398" />
     <state x="545" y="268" key="FileChooserDialogImpl" timestamp="1610439540320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -340,38 +257,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="220" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610436634121" />
-    <state width="1877" height="469" key="GridCell.Tab.0.bottom" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.0.bottom" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.0.center" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
+    <state width="1877" height="370" key="GridCell.Tab.0.center" timestamp="1610444987184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.0.left" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987184" />
+    <state width="1877" height="370" key="GridCell.Tab.0.left" timestamp="1610444987184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.0.right" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987184" />
+    <state width="1877" height="370" key="GridCell.Tab.0.right" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.1.bottom" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
+    <state width="1877" height="370" key="GridCell.Tab.1.bottom" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.1.center" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
+    <state width="1877" height="370" key="GridCell.Tab.1.center" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.1.left" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
+    <state width="1877" height="370" key="GridCell.Tab.1.left" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
-    <state width="1877" height="469" key="GridCell.Tab.1.right" timestamp="1610375300253">
+    <state width="1877" height="370" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
+    <state width="1877" height="370" key="GridCell.Tab.1.right" timestamp="1610444987185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="469" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610375300253" />
+    <state width="1877" height="370" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610444987185" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1610199106415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -384,10 +301,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="90" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610437252962" />
-    <state x="332" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610441588584">
+    <state x="332" y="256" key="Vcs.Push.Dialog.v2" timestamp="1610441850539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="332" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610441588584" />
+    <state x="332" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610441850539" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1610437320741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -400,10 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610197687037" />
-    <state x="334" y="214" key="new project wizard" timestamp="1610369680169">
+    <state x="334" y="214" key="new project wizard" timestamp="1610443962397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610369680169" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1610443962397" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

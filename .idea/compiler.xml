@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="NativeConfigClient" />
+        <module name="ConfigServer" />
         <module name="Consumer" />
         <module name="Ribbon" />
         <module name="Zuul" />
         <module name="RestTemplate" />
+        <module name="ConfigClient" />
         <module name="EurekaServer" />
         <module name="EurekaClient" />
         <module name="EurakaClient" />
@@ -28,6 +30,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigClient" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="Consumer" options="-parameters" />
       <module name="EurakaClient" options="-parameters" />
       <module name="EurakaServer" options="-parameters" />
